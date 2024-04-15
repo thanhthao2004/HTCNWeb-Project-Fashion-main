@@ -20,8 +20,9 @@
   background-color: var(--pink-color);
   height: 104px;
   display: flex;
-  align-items: center;
+  align-items: center
 }
+
 .header__loogo {
   height: 104px;
   margin-right: 32px;
@@ -111,6 +112,7 @@
   letter-spacing: 2px;
   font-weight: 400;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .footer__links {
@@ -129,7 +131,6 @@
 .footer__item > i {
   margin-right: 8px;
 }
-
 
 
 /* Đăng nhập */
@@ -189,4 +190,18 @@
   background-color: #E4B3AF;
   position: relative;
   top: 20px;
+}
+
+/* Slider */
+#img1{
+  width: 1080px;
+  height: 880px;
+}
+#img2{
+  width: 1080px;
+  height: 880px;
+}
+#img3{
+  width: 1080px;
+  height: 880px;
 }

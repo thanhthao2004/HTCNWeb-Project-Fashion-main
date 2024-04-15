@@ -12,13 +12,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese" rel="stylesheet">
   <!-- Link bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Giới thiệu thành viên</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Site map</title>
 </head>
 <body>
   <div id="wrapper">
     <!-- Header -->
     <header id="header">
-      <a href="../html/sitemap.html">
+      <a href="#">
         <img src="../asset/img/logo/logo-final.png" alt="" class="header__loogo">
       </a>
       <div class="header__link">
@@ -40,24 +41,72 @@
       </div>
     </header>
 
+    <!-- Slider -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img id="img1" src="/asset/img/slider/canva-slider.png"  class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+        <img id="img2" src="/asset/img/slider/z5346549196808_8a43779bd52326735f05347ace49f190.jpg"  class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+        <img id="img3" src="/asset/img/slider/slider13.jpg"  class="d-block" style="width:100%">
+        </div>
+    </div>
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+
     <!-- Content main -->
     <div id="container" class="container-fluid pt-4 p-0">
+      <!-- Sitemap -->
       <main class="container p-4 bg-white">
-        <h2 class="h2 text-center fs-1">Giới thiệu thành viên</h2>
-        <div class="card-group">
-          <div class="card m-4 border-0">
-            <img src="/asset/img/thanhVien/bich.jpg" alt="Bich" class="w-100 content__item-img">
-            <div class="card-body">
-              <h2 class="3  card-title p-2 m-0">Nguyễn Thị Ngọc Bích <br> DHHTTT18ATT</h2>
-              <p class="card-text fs-3 p-2">222637851</p>
-            </div>
+        <h2 class="h2 text-center fs-1">Site Map</h2>
+        <div class="row mb-4">
+          <div class="col d-flex justify-content-center">
+            <a class="btn_custom btn" href="../html/trangchu.html">Trang chủ</a>
           </div>
-          <div class="card m-4 border-0">
-            <img src="/asset/img/thanhVien/thao.jpg" alt="Thao" class="w-100 content__item-img">
-            <div class="card-body">
-              <h2 class="h3 card-title p-2 m-0">Trần Thị Thanh Thảo <br> DHHTTT18ATT</h2>
-                <p class="card-text fs-3 p-2">22637851</p>
-            </div>
+          <div class="col d-flex justify-content-center">
+            <a class="btn_custom btn" href="../html/trangao.html">Trang áo</a>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col d-flex justify-content-center">
+            <a class="btn_custom btn" href="../html/trangdam.html">Trang đầm</a>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <a class="btn_custom btn" href="../html/trangvay.html">Trang váy</a>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col d-flex justify-content-center">
+            <a class="btn_custom btn" href="../html/trangquan.html">Trang quần</a>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <a class="btn_custom btn" href="../html/dangnhap.html">Trang đăng nhập</a>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col d-flex justify-content-center">
+            <a class="btn_custom btn" href="../html/dangky.html">Trang đăng ký</a>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <a class="btn_custom btn" href="../html/gioithieuthanhvien.html">Trang giới thiệu thành viên</a>
           </div>
         </div>
       </main>
@@ -95,5 +144,7 @@
       </div>
     </footer>
   </div>
+
+  <script src="/js/main.js"></script>
 </body>
 </html>
